@@ -69,9 +69,9 @@
         gl.clear(gl.COLOR_BUFFER_BIT);
         
         var vertices = [
-           0.00f, -0.25f,
-           0.25f, +0.25f,
-          -0.00f, +0.25f,
+           0.00, -0.25,
+           0.25, +0.25,
+          -0.00, +0.25,
         ];
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.DYNAMIC_DRAW);
         gl.drawArrays(gl.TRIANGLE_STRIP, 0, 1);
