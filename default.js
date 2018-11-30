@@ -31,7 +31,6 @@
         var vertexShader = gl.createShader(gl.VERTEX_SHADER);
         gl.shaderSource(vertexShader, vsSource);
         gl.compileShader(vertexShader);
-        gl.getShaderParameter(vertexShader, gl.COMPILE_STATUS);
         if(!gl.getShaderParameter(vertexShader, gl.COMPILE_STATUS)){
             alert(gl.getShaderInfoLog(vertexShader));
         }
