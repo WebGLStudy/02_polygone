@@ -70,9 +70,9 @@
         const vertexBuffer = gl.createBuffer();
         gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
         var vertices = [
-           0.0, +0.3,
-           0.5, -0.5,
-          -0.5, -0.5
+           0.0, +0.5,
+           0.5, -0.3,
+          -0.5, -0.3
         ];
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
         var posAttr = gl.getAttribLocation(program, 'position');
