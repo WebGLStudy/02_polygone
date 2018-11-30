@@ -46,8 +46,8 @@
 
         // シェーダプログラム
         var program = gl.createProgram();
-        gl.attachShader(program, vShader);
-        gl.attachShader(program, fShader);
+        gl.attachShader(program, vertexShader);
+        gl.attachShader(program, fragmentShader);
         gl.linkProgram(program);
         gl.getProgramParameter(program, gl.LINK_STATUS);
         gl.useProgram(program);
