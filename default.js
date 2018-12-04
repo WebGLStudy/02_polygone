@@ -71,7 +71,7 @@
         var vertices = [
            0.0, +0.4,
            0.5, -0.4,
-          -0.5, -0.4
+          -0.0, -0.4
         ];
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
         var posAttr = gl.getAttribLocation(program, 'position');
