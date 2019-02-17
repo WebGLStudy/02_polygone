@@ -1,6 +1,8 @@
 # ポリゴンの描画
 三角形を表示してみましょう。
 
+https://webglstudy.github.io/02_polygone/
+
 ![結果画像](result.png)
 
 # 課題
